@@ -92,11 +92,11 @@ html {
 /* ------------------------ */
 @font-face {
   font-family: "bold";
-  src: url(/fonts/proximanova_bold.otf);
+  src: url(../fonts/proximanova_bold.otf);
 }
 @font-face {
   font-family: "regular";
-  src: url(/fonts/proximanova_regular.ttf);
+  src: url(../fonts/proximanova_regular.ttf);
 }
 * {
   color: #1e2e36;
