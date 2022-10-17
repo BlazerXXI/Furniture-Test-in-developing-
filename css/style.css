@@ -989,7 +989,6 @@ select {
 .questions__title {
   justify-content: center;
 }
-
 .questions__body {
   background: url("../img/questions/questions-bg.jpg") left 0 no-repeat;
   margin: 0px 0px 0px -51px;
@@ -1561,6 +1560,13 @@ select {
   .header-menu__menu {
     display: none;
   }
+  .questions__body {
+    background: none;
+    padding: 30px 0px 0px 0px;
+  }
+	.questions {
+		margin: 0px 0px 50px 0px;
+	}
 }
 
 @media (max-width: 424px) {
