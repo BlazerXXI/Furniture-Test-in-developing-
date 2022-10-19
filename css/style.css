@@ -587,9 +587,6 @@ select {
 ._green-line {
   box-shadow: 0px 3px 0px 0px #44c697;
 }
-._green-line_free-trans {
-  box-shadow: 0px 3px 0px 0px #44c697;
-}
 
 .advantage__title {
   display: flex;
