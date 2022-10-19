@@ -1388,6 +1388,9 @@ select {
   .attribution-footer__text * {
     font-size: 11px;
   }
+  .questions__body {
+    min-height: 0;
+  }
 }
 
 @media (max-width: 979px) {
