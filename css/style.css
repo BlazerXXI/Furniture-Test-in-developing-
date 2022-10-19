@@ -1317,6 +1317,9 @@ select {
   .header-menu__list {
     flex-wrap: wrap;
   }
+  .header-menu__list > * {
+    flex: 0 1 30%;
+  }
 
   .promotion__content {
     padding: 49px 45px 50px 45px;
@@ -1324,11 +1327,6 @@ select {
 
   .mouse__block {
     margin: 50px 0px 0px 0px;
-  }
-}
-@media (max-width: 1240px) {
-  .header-menu__list > * {
-    flex: 0 1 30%;
   }
 }
 
