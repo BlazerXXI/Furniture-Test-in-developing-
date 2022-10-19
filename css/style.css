@@ -118,7 +118,6 @@ select {
 }
 ._container {
   max-width: 1818px;
-
   margin: 0px auto;
 }
 /* ----------------------- BEM ------------------------ */
@@ -276,10 +275,26 @@ select {
 .nav__item {
 }
 .nav__link {
+  position: relative;
 }
 .main__link:hover,
 .main__link:focus {
   box-shadow: 0px 3px 0px 0px #44c697;
+}
+.nav__link-amount {
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f00;
+  color: #fff;
+  position: absolute;
+  margin: -12px -12px 0px 0px;
 }
 /* ------------header-menu------------ */
 .header__menu {
@@ -392,6 +407,8 @@ select {
 .menu-cart__img {
 }
 .menu-cart__amount {
+  display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
   width: 20px;
