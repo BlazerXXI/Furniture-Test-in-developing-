@@ -613,6 +613,7 @@ select {
 	margin: 0px 0px 100px 0px;
 }
 .advantage__container {
+	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 }
@@ -1265,13 +1266,11 @@ select {
 
 /* ------------------------ */ /* Burger Menu */ /* ------------------------ */
 .menu__hamburger {
-	position: fixed;
+	position: relative;
 	z-index: 55;
-	top: 20px;
-	right: 30px;
+	cursor: pointer;
 	width: 30px;
 	height: 30px;
-	cursor: pointer;
 	background-color: transparent;
 	transition: all ease-in-out 0.3s, transform linear 0.3s;
 	background-color: #ffffff80;
@@ -1545,11 +1544,21 @@ select {
 }
 
 @media (max-width: 768px) {
-	body .header-menu__cart {
+	.header__nav {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.header-menu__cart-burger {
+		display: flex;
 		width: 100%;
 		justify-content: space-around;
 		flex-direction: row-reverse;
 		align-items: center;
+	}
+	body .header-menu__cart {
+		display: none;
 	}
 	body .header-menu__container {
 		display: flex;
@@ -1561,7 +1570,7 @@ select {
 		margin-top: 20px;
 	}
 	.nav__content {
-		padding-top: 20px;
+		padding-top: 0;
 		box-shadow: none;
 	}
 	.nav__list {
