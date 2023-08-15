@@ -24,3 +24,7 @@ function closeMenu() {
 		: menuList.classList.remove("open") ||
 		  menuHamburger.classList.remove("menu__hamburger-open");
 }
+
+document.addEventListener("keydown", (e) => {
+	e.key === "Escape" ? closeMenu() : null;
+});
